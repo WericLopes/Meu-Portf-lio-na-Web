@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header_nav.css">
+    <link rel="stylesheet" href="./styles/nav_mobile.css">
+    <link rel="stylesheet" href="./styles/section.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="shortcut icon" href="./assets/registro-online.png" width="100px" type="image/svg">
+    <title>Meu Portfólio WEB</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">sobre mim</a></li>
+                <li><a href="#formacao">formação</a></li>
+                <li><a href="#experiencias">experiências</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#interesses">interesses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img class="icone-menu" src="./assets/icons8-cardápio-32.svg" width="32px" height="40px">
+    
+    <div id="menu-mobile" class="menu-mobile display-menu">
+        <img id="menu-exit" class="icone-exit" src="./assets/icons8-cardápio-32.svg" height="32px" width="40px" >
+        <div class="nav-mobile">
+            <ul>
+                <li><a href="#sobre-mim">sobre mim</a></li>
+                <li><a href="#formacao">formação</a></li>
+                <li><a href="#experiencias">experiências</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#interesses">interesses</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <div class="pessoa">
+            <h1>Weric Lopes</h1>
+            <h2>Desenvolvedor Front-End</h2>
+            
+            <div class="contato">
+                <img class="icones-informacoes" src="./assets/mensagem.gif">
+                <p>weric.wl@gmail.com<p>
+            </div>
+            <div class="contato">
+                <img class="icones-informacoes" src="./assets/whatsapp.png">
+                <p>(21) 98379-7445</p>
+            </div>
+            <div class="contato">
+                <img class="icones-informacoes" src="./assets/mapas-do-google.png">
+                <p>Santo Andre-SP</p>
+            </div>
+        </div>
+        
+        <div class="avatar"></div>
+        <div class="midias">
+            
+            <a href="https://github.com/WericLopes" target="_blank"><img src="./assets/github.png"></a>
+            <a href="https://www.instagram.com/Weric.wl" target="_blank"><img src="./assets/instagram.png"></a>
+        </div>
+        
+    </section>
+
+    <main>
+        <div class="sobre-mim" id="sobre-mim">
+            <img src="./assets/sobre mim.jpg" class="foto-sobre-mim margem-caixas">
+
+            <div class="texto-sobre-mim">
+                <h3 class="titulo">Sobre mim</h3>
+                <p>Olá! Eu sou o Weric e sou aluno do Empower Code for All, em parceira Zenvia e Alura. Estou estudando  front-end mas procuro aprender coisas novas que me levem ao caminho de me tornar um Dev Profissional.
+                </p>
+            </div>
+        </div>
+
+        <div id="formacao">
+            <h3 class="titulo">Formação<h3>
+            <p class="background-texto margem-caixas">Ensino Médio Completo.<br>
+            </p>
+            <p class="background-texto margem-caixas">Introdução a Redes de Computadores (ESCOLA VIRTUAL FUNDAÇÃO BRADESCO).<br>
+            </p>
+            <p class="background-texto margem-caixas">Graduação Tecnológica - Redes de Computadores Universidade Estácio de Sá -
+                Período: 2o (Trancada)<br>
+            </p>
+            <p class="background-texto margem-caixas">Curso de HTML, CSS e JavaScript pela Zenvia - Alura Include - Certificados <a href="">aqui</a>.<br>
+            </p>
+        </div>
+
+        <div id="experiencias">
+            <h3 class="titulo">Experiências</h3>
+            <p class="background-texto margem-caixas">Projetos Realizados Através do curso Zenvia - Alura Include.<br>
+            </p>
+            <p class="background-texto margem-caixas">Projetos em JavaScript, HTML e CSS.<br>
+            </p>
+        </div>
+        
+        <div id="habilidades">
+            <h3 class="titulo">Habilidades</h3>
+            <ul>
+                <img src="./icons/icons8-html5.svg">
+                <img src="./icons/icons8-css.svg">
+                <img src="./icons/icons8-js.svg"> 
+                <img src="./icons/icons8-git.svg"> 
+        </div>
+
+        <div id="interesses">
+            <h3 class="titulo">Interesses</h3>
+            <img src="./icons/icons8-html5.svg" class="icones-interesses" id="interesse-html5">
+            <img src="./icons/icons8-css.svg" class="icones-interesses" id="interesse-css3">
+            <img src="./icons/icons8-js.svg" class="icones-interesses" id="interesse-js">
+            <img src="./icons/icons8-git.svg" class="icones-interesses" id="interesse-git">
+           
+        </div>
+
+        <div id="caixa-texto-interesses" class="display-informacoes-interesses">
+            <p id="texto-interesse" class="background-texto margem-caixas"></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-informacoes">
+            <img src="./assets/seta-direita.gif" class="icones-informacoes">
+
+            <p class="fale-comigo">Contate-me Através <a href="mailto:weric.wl@gmail.com">e-mail</a> ou <a href="https://api.whatsapp.com/send?phone=5521983797445">whatsapp</a>.</p>  
+        </div>
+        
+        <p>Weric Lopes<br>2023</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
